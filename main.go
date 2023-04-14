@@ -1,7 +1,7 @@
 package main
 
-import "github.com/Thevtok/auth-jwt/jwt"
+import "github.com/Thevtok/auth-jwt/JWT"
 
 func main() {
-	jwt.Run()
+	JWT.Run()
 }

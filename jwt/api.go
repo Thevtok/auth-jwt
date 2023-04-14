@@ -1,4 +1,4 @@
-package jwt
+package JWT
 
 import (
 	"net/http"
@@ -51,7 +51,7 @@ func Run() {
 
 }
 
-func authMiddleware() gin.HandlerFunc {
+func AuthMiddleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		// Get JWT token from authorization header
 		authHeader := c.GetHeader("Authorization")
