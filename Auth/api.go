@@ -1,4 +1,4 @@
-package JWT
+package Auth
 
 import (
 	"net/http"
